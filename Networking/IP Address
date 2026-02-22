@@ -1,1 +1,67 @@
+IP Address
 
+An IP address is a unique numerical identifier assigned to a device on a network.
+It allows devices to identify each other and communicate over a network.
+
+Without IP addresses, devices wouldn’t know where to send or receive data.
+
+⸻
+
+Types of IP Address Formats
+
+IPv4
+	•	32-bit address
+	•	Written in decimal format (e.g., 192.168.1.10)
+	•	Limited number of addresses (~4.3 billion)
+
+IPv6
+	•	128-bit address
+	•	Written in hexadecimal
+	•	Created to solve IPv4 exhaustion
+	•	Supports a vastly larger number of addresses
+
+⸻
+
+Viewing IP Addresses
+	•	ipconfig → Used on Windows to view IP configuration.
+	•	ifconfig (older) or ip addr → Used on Linux systems.
+
+⸻
+
+Private vs Public IP Addresses
+
+Private IP
+	•	Used inside a local network (home, school, office).
+	•	Not directly accessible from the internet.
+	•	Assigned by a router or DHCP server.
+
+Public IP
+	•	Assigned by an ISP.
+	•	Used to identify your network on the internet.
+	•	What websites see when you connect to them.
+
+⸻
+
+NAT (Network Address Translation)
+
+NAT allows multiple devices with private IP addresses to share one public IP address.
+
+It translates:
+Private IP → Public IP (when sending traffic out)
+Public IP → Correct private IP (when traffic returns)
+
+Without NAT, every device would need its own public IP.
+
+⸻
+
+Static vs Dynamic IP Addresses
+
+Static IP
+	•	Manually assigned.
+	•	Does not change.
+	•	Ideal for servers, printers, or systems that must always be reachable.
+
+Dynamic IP
+	•	Automatically assigned.
+	•	Can change over time.
+	•	Managed by DHCP (Dynamic Host Configuration Protocol).
