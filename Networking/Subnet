@@ -1,1 +1,52 @@
 
+What is Subnetting?
+
+Subnetting is the process of dividing a large network into smaller networks (subnetworks).
+
+Instead of having one big network where every device is grouped together,
+subnetting allows an organisation to split the network into smaller sections for better management, security, and performance.
+
+For example:
+	•	HR department could be on one subnet
+	•	IT department on another
+	•	Finance on another
+
+Each subnet works as part of the main network but operates as its own smaller network.
+
+⸻
+
+Why Subnetting is Used
+
+Subnetting helps with:
+	•	Better network organisation
+	•	Improved performance (less broadcast traffic)
+	•	Increased security (departments separated)
+	•	Easier troubleshooting
+
+It makes large networks more efficient and structured.
+
+⸻
+
+Subnet Mask
+
+A subnet mask is used to determine which part of an IP address represents:
+	•	The network portion
+	•	The host portion
+
+The subnet mask works together with the IP address to identify:
+	•	The Network ID (Subnet ID)
+	•	The valid host range
+	•	The broadcast address
+
+Example:
+IP Address: 192.168.1.10
+Subnet Mask: 255.255.255.0
+
+The subnet mask tells us which part identifies the network and which part identifies individual devices (hosts).
+
+⸻
+
+Key Idea
+	•	Subnet = smaller network created from a larger one
+	•	Subnet mask = tool used to divide network and host portions
+	•	IP address + Subnet mask = used to calculate the subnet ID
