@@ -1,1 +1,53 @@
 
+
+## DNS (Domain Name System)
+
+From my understanding, DNS is like a translator.
+
+Computers don’t understand human language — they communicate using numbers (IP addresses). Humans prefer using names like www.google.com.
+
+So DNS translates a domain name into an IP address so computers can communicate properly.
+
+⸻
+
+## Why DNS Is Important
+
+Without DNS, we would have to type the full IP address of a website instead of its name.
+
+For example, instead of typing www.google.com, we would need to remember and type its IP address.
+
+DNS makes the internet easier for humans to use.
+
+⸻
+
+What DNS Servers Do
+
+DNS servers help locate the IP address linked to a domain name.
+
+They do not process or load the website itself — they only help find where the website is located.
+
+Once the IP address is found, your browser connects to that IP to load the website.
+
+⸻
+
+Types of DNS Servers (Basic Idea)
+
+There are different DNS servers that work together:
+	•	Root Server
+	•	TLD Server (.com, .org, etc.)
+	•	Authoritative Name Server
+
+They work step-by-step to help find the correct IP address.
+
+⸻
+
+Useful Command
+
+On Windows Command Prompt:
+
+nslookup domainname.com
+
+This shows the IP address linked to a domain and the DNS server that responded.
+
+⸻
+
