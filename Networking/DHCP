@@ -1,0 +1,54 @@
+
+
+DHCP is what automatically assigns IP addresses to devices on a network.
+
+Instead of manually setting an IP address on every computer, DHCP does it for you. That’s what makes it efficient.
+
+There are two types of IP address assignments:
+	•	Static – manually set by an administrator
+	•	Dynamic – automatically assigned by DHCP
+
+Dynamic IP addresses are handled by the DHCP server.
+
+⸻
+
+What Happens When a Device Turns On
+
+When a device powers on and connects to a network, it doesn’t have an IP address yet.
+
+So it sends a broadcast message across the network basically saying, “Is there a DHCP server here?”
+
+It broadcasts because it doesn’t know the server’s address yet.
+
+⸻
+
+The DHCP Process (DORA)
+
+From what I learned, DHCP follows a 4-step process called DORA:
+	1.	Discover – The device broadcasts to find a DHCP server.
+	2.	Offer – The DHCP server responds with an available IP address.
+	3.	Request – The device requests to use that offered IP address.
+	4.	Acknowledge – The server confirms and assigns it.
+
+After that, the device receives:
+	•	IP address
+	•	Subnet mask
+	•	Default gateway (router)
+	•	DNS server
+
+⸻
+
+Where DHCP Is Usually Found
+
+In home networks, the router normally acts as the DHCP server.
+
+In business environments, a Windows Server or dedicated DHCP server handles it.
+
+⸻
+
+My Understanding So Far
+
+DHCP makes network management easier because:
+	•	You don’t have to manually configure every device
+	•	It prevents IP conflicts
+	•	It saves time
