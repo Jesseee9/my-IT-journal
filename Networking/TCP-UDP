@@ -1,0 +1,91 @@
+
+
+TCP (Transmission Control Protocol) and UDP (User Datagram Protocol) are both transport layer protocols used to send data across networks.
+
+The main difference between them is reliability vs speed.
+
+⸻
+
+TCP (Transmission Control Protocol)
+
+TCP is connection-oriented and reliable.
+
+Before data is sent, TCP establishes a connection using a 3-way handshake:
+	1.	SYN
+	2.	SYN-ACK
+	3.	ACK
+
+Once the connection is established:
+	•	Data is sent in segments
+	•	Each segment has a sequence number
+	•	The receiver sends acknowledgements (ACKs)
+	•	If data is lost, it is retransmitted
+	•	Data is reassembled in the correct order
+
+Key Characteristics:
+	•	Reliable delivery
+	•	Ordered data transmission
+	•	Error detection and retransmission
+	•	Higher overhead
+	•	Slightly more latency
+
+Common Use Cases:
+	•	Web browsing (HTTP/HTTPS)
+	•	Email
+	•	File transfers (FTP)
+	•	Remote access (SSH)
+
+TCP is used when accuracy matters more than speed.
+
+⸻
+
+UDP (User Datagram Protocol)
+
+UDP is connectionless and faster.
+
+There is:
+	•	No handshake
+	•	No acknowledgement
+	•	No retransmission
+	•	No guarantee of order
+
+Data is sent as independent packets called datagrams.
+
+Key Characteristics:
+	•	Faster transmission
+	•	Lower overhead
+	•	No guaranteed delivery
+	•	No guaranteed order
+
+Common Use Cases:
+	•	Online gaming
+	•	Live streaming
+	•	VoIP (voice calls)
+	•	DNS queries
+
+UDP is used when speed matters more than perfection.
+
+⸻
+
+Comparison Table
+
+Feature	TCP	UDP
+Connection required	Yes	No
+Reliable	Yes	No
+Ordered delivery	Yes	No
+Error recovery	Yes (retransmits)	No
+Speed	Slower	Faster
+Best for	Accuracy-critical tasks	Real-time applications
+
+
+⸻
+
+Key Takeaway
+
+TCP ensures data arrives correctly and in order, even if it requires retransmission.
+UDP prioritizes speed and low latency, even if some data is lost.
+
+Choosing between TCP and UDP depends on the application requirements — reliability vs real-time performance.
+
+⸻
+
