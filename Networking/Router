@@ -1,0 +1,76 @@
+
+
+📡 Router – Networking Fundamentals
+
+🔹 What is a Router?
+
+A router is a Layer 3 network device that connects different networks together and forwards data packets between them using IP addresses.
+
+Its primary role is to determine the best path for data to travel from a source network to a destination network.
+
+⸻
+
+🔹 Core Functions of a Router
+
+1️⃣ Packet Forwarding
+
+Routers examine the destination IP address in a packet and use a routing table to determine where to send it next.
+
+2️⃣ Network Address Translation (NAT)
+
+Routers translate private IP addresses (e.g., 192.168.x.x) into a public IP address so multiple devices can share a single internet connection.
+
+Example:
+	•	Laptop: 192.168.1.10
+	•	Phone: 192.168.1.11
+	•	Router public IP: 86.x.x.x
+
+NAT allows both devices to access the internet using one public IP.
+
+3️⃣ Default Gateway
+
+In a local network, the router acts as the default gateway.
+If a device wants to communicate outside its local network, it sends the traffic to the router.
+
+4️⃣ Basic Firewall & Security
+
+Most routers include built-in firewall functionality that:
+	•	Blocks unsolicited inbound traffic
+	•	Filters traffic based on rules
+	•	Helps protect internal devices from external threats
+
+⸻
+
+🔹 Router vs Switch (Quick Comparison)
+
+Feature	Router	Switch
+OSI Layer	Layer 3 (Network)	Layer 2 (Data Link)
+Uses	IP addresses	MAC addresses
+Connects	Different networks	Devices within the same network
+Internet Access	Yes	No
+
+
+⸻
+
+🔹 Real-World Example
+
+When a user opens a website:
+	1.	Device sends request to router.
+	2.	Router performs NAT and forwards traffic to ISP.
+	3.	ISP routes traffic to the internet.
+	4.	Response returns to router.
+	5.	Router forwards data back to correct internal device.
+
+⸻
+
+🔹 Key Takeaways
+	•	A router connects networks.
+	•	It forwards packets using IP addresses.
+	•	It performs NAT.
+	•	It acts as the default gateway.
+	•	It typically includes basic firewall security.
+
+⸻
+
+
+You’re building this the right way. Keep stacking.
